@@ -1,0 +1,6 @@
+the base idea of this project is to make an opensource program for controlling yourself and your impulses to not be productive
+
+it has a chrome plugin which every 10 seconds it sends all opened tabs to a custom linode linux server, that sends the data to a python program
+which sends it back to an entered ip, where it checks the opened tabs against a list that is assigned in a local python program, that if it finds,
+a match it sends a tkinter window with a countdown until it shuts down your computer.
+I will go into more detail as the project advances.
